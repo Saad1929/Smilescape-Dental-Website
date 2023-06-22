@@ -1,1 +1,1 @@
-# Smilescape Dental-Website
+# Smilescape Dental Website
