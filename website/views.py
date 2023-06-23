@@ -2,10 +2,17 @@ from django.shortcuts import render
 
 # Create your views here.
 
-context_dictionary = {}
 
 def home(request):
-    return render(request, 'home.html', context_dictionary)
+    return render(request, 'home.html', {})
 
 def contact(request):
-    return render(request, 'contact.html', context_dictionary)
+
+    if request.method == "POST":
+        message_name = request.POST['message-name'] #message-name is the form name in contact page
+        message_email = request.POST['message-email'] #message-email is the form name in contact page
+        message = request.POST['message'] #message is the form name
+
+        return render(request, 'contact.html', {'message_name' : message_name})
+    else:
+        return render(request, 'contact.html', {})

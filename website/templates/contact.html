@@ -181,7 +181,8 @@
               <div class="line"></div>
             </div>
             <!-- Form -->
-            <form action="#" method="post">
+            <form action="{% url 'contact' %}" method="post">
+              {% csrf_token %}
               <div class="row">
                 <div class="col-lg-6">
                   <input type="text" name="message-name" class="form-control mb-30" placeholder="Your Name">
