@@ -90,7 +90,7 @@
                       <li><a href="pricing.html">- Pricing</a></li>
                       <li><a href="blog.html">- Blog</a></li>
                       <li><a href="blog-details.html">- Blog Details</a></li>
-                      <li><a href="contact.html">- Contact</a></li>
+                      <li><a href="{% url 'contact' %}">- Contact</a></li>
                     </ul>
                   </li>
                   <li><a href="about.html">About</a></li>
@@ -102,7 +102,7 @@
                       <li><a href="blog-details.html">- Blog Details</a></li>
                     </ul>
                   </li>
-                  <li><a href="./contact.html">Contact</a></li>
+                  <li><a href="{% url 'contact' %}">Contact</a></li>
                 </ul>
               </div>
               <!-- Nav End -->
@@ -133,7 +133,7 @@
                   offer you.</p>
                 <div class="welcome-btn-group">
                   <a href="#" class="btn dento-btn mx-2" data-animation="fadeInUp" data-delay="500ms">Get Started</a>
-                  <a href="#" class="btn dento-btn mx-2 active" data-animation="fadeInUp" data-delay="700ms">Contact Us</a>
+                  <a href="{% url 'contact' %}" class="btn dento-btn mx-2 active" data-animation="fadeInUp" data-delay="700ms">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -153,7 +153,7 @@
                   offer you.</p>
                 <div class="welcome-btn-group">
                   <a href="#" class="btn dento-btn mx-2" data-animation="fadeInDown" data-delay="500ms">Get Started</a>
-                  <a href="#" class="btn dento-btn mx-2 active" data-animation="fadeInDown" data-delay="700ms">Contact Us</a>
+                  <a href="{% url 'contact' %}" class="btn dento-btn mx-2 active" data-animation="fadeInDown" data-delay="700ms">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -726,7 +726,7 @@
         <!-- Single Footer Widget --> 
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="single-footer-widget">
-            <a href="./index.html" class="d-block mb-4"><img src="{% static 'website/img/core-img/logo.png' %}" alt=""></a>
+            <a href="{% url 'home' %}" class="d-block mb-4"><img src="{% static 'website/img/core-img/logo.png' %}" alt=""></a>
             <p>Smile, you're working with Smilescape!</p>
             <div class="footer-contact">
               <p><i class="icon_pin"></i> 80 Smilescape Street, Glasgow, United Kingdom</p>
@@ -757,14 +757,14 @@
         <div class="col-12 col-sm-6 col-lg">
           <div class="single-footer-widget">
             <!-- Widget Title -->
-            <h5 class="widget-title">Quick Link</h5>
+            <h5 class="widget-title">Quick Links</h5>
 
             <!-- Quick Links Nav -->
             <nav>
               <ul class="quick-links">
                 <li><a href="#">About</a></li>
                 <li><a href="#">FAQs</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
                 <li><a href="#">Policy</a></li>
                 <li><a href="#">News</a></li>
                 <li><a href="#">Advisors</a></li>
@@ -783,7 +783,7 @@
             <!-- Widget Title -->
             <h5 class="widget-title">Newsletter</h5>
 
-            <p>We will send out weekly newest article and some great offers</p>
+            <p>Weekly News Articles & Offers Directly to Your Mailbox. <b>Free of Charge.</b></p>
             <!-- Newsletter Form -->
             <div class="footer-newsletter-form">
               <form action="#" method="post">
@@ -796,7 +796,6 @@
             <div class="footer-social-info">
               <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
               <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" data-toggle="tooltip" data-placement="top" title="Google Plus"><i class="fa fa-google-plus"></i></a>
               <a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a>
               <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
             </div>
