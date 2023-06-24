@@ -13,6 +13,9 @@ def contact(request):
         message_email = request.POST['message-email'] #message-email is the form name in contact page
         message = request.POST['message'] #message is the form name
 
+        #If User Has Typed a message, Email With what they wrote
+        
+
         return render(request, 'contact.html', {'message_name' : message_name})
     else:
         return render(request, 'contact.html', {})
