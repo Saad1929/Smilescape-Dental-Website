@@ -15,12 +15,7 @@ def contact(request):
         message = request.POST['message'] #message is the form name
 
         #If User Has Typed a message, Email With what they wrote
-        #Subject, Message, From Email, To Email
-        send_mail("Contact Smilescape - New Message",
-                  message,
-                  message_email,
-                  ["saaddjango7@gmail.com"],
-                  fail_silently=False)
+    
         
 
         return render(request, 'contact.html', {'message_name' : message_name})

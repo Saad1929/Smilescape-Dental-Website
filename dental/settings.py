@@ -122,13 +122,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [STATIC_DIR, ]
 
-#Email for Views.py Contact Info
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'saaddjango7@gmail.com'
-EMAIL_HOST_PASSWORD = 'Django12345'
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
-
 
 
