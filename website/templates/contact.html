@@ -142,7 +142,14 @@
     </div>
   </div>
   <!-- ***** Breadcrumb Area End ***** -->
-
+  {% if message_name %}
+     <center>
+        <h3>Thank You for Reaching Out to Smilescape {{message_name}}.</h3>
+        <br/>We will respond as soon as possible.<br/>
+     </center>
+  {% else %}
+     <center><h3>Discover Us</h3></center>
+  {% endif %}
   <!-- ***** Contact Area Start ***** -->
   <section class="dento-contact-area mt-50 mb-100">
     <div class="container">
