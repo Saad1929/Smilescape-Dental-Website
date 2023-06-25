@@ -9,10 +9,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Title -->
+  <!-- Title --> 
   <title>Smilescape - Dental Healthcare &amp;</title>
 
-  <!-- Favicon --> 
+  <!-- Favicon -->
   <link rel="icon" href="{% static 'website/img/core-img/favicon.ico' %}">
 
   <!-- Core Stylesheet --> 
@@ -86,15 +86,15 @@
                     <ul class="dropdown">
                       <li><a href="{% url 'home' %}">- Home</a></li>
                       <li><a href="{% url 'about' %}">- About Us</a></li>
-                      <li><a href="service.html">- Service</a></li>
+                      <li><a href="{% url 'service' %}">- Service</a></li>
                       <li><a href="{% url 'pricing' %}">- Pricing</a></li>
                       <li><a href="blog.html">- Blog</a></li>
                       <li><a href="blog-details.html">- Blog Details</a></li>
-                      <li><a href="contact.html">- Contact</a></li>
+                      <li><a href="{% url 'contact' %}">- Contact</a></li>
                     </ul>
                   </li>
                   <li><a href="{% url 'about' %}">About</a></li>
-                  <li><a href="service.html">Service</a></li>
+                  <li><a href="{% url 'service' %}">Service</a></li>
                   <li><a href="{% url 'pricing' %}">Pricing</a></li>
                   <li><a href="#">Blog</a>
                     <ul class="dropdown">
@@ -102,7 +102,7 @@
                       <li><a href="blog-details.html">- Blog Details</a></li>
                     </ul>
                   </li>
-                  <li><a href="./contact.html">Contact</a></li>
+                  <li><a href="{% url 'contact' %}">Contact</a></li>
                 </ul>
               </div>
               <!-- Nav End -->
@@ -122,7 +122,7 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-12">
-          <h2 class="title">Contact</h2>
+          <h2 class="title">Our Pricing</h2>
         </div>
       </div>
     </div>
@@ -134,7 +134,7 @@
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="{% url 'home' %}"><i class="fa fa-home"></i> Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Contact</li>
+              <li class="breadcrumb-item active" aria-current="page">Our Pricing</li>
             </ol>
           </nav>
         </div>
@@ -142,76 +142,146 @@
     </div>
   </div>
   <!-- ***** Breadcrumb Area End ***** -->
-  {% if message_name %}
-     <center>
-        <h3>Thank You for Reaching Out to Smilescape {{message_name}}.</h3>
-        <br/>We will respond as soon as possible.<br/>
-     </center>
-  {% else %}
-     <center><h3>Discover Us</h3></center>
-  {% endif %}
-  <!-- ***** Contact Area Start ***** -->
-  <section class="dento-contact-area mt-50 mb-100">
+
+  <!-- ***** Pricing Table Area Start ***** -->
+  <section class="dento-pricing-table-area mt-50 section-padding-0-100">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="google-maps mb-100">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143322.27615495046!2d-4.397265328023052!3d55.85554280825057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488815562056ceeb%3A0x71e683b805ef511e!2sGlasgow!5e0!3m2!1sen!2suk!4v1687559362328!5m2!1sen!2suk" 
-            width="600" height="450" style="border:0;" allowfullscreen="" 
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+          <div class="dento-price-table table-responsive">
+            <table class="table table-borderless mb-0">
+              <thead>
+                <tr>
+                  <th scope="col">Service Names</th>
+                  <th scope="col">Stage</th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Teeth Whitening Service at home</th>
+                  <td>1 time</td>
+                  <td>£115.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Teeth Whitening Service at Dental Clinic</th>
+                  <td>1 time</td>
+                  <td>£100.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Ceramic crowns and fillings Dental porcelain</th>
+                  <td>1 time</td>
+                  <td>£99.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Remove crowns, bridges Service</th>
+                  <td>1 tooth</td>
+                  <td>£50.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Covering the recession of the gums</th>
+                  <td>1 time</td>
+                  <td>£400.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Consultation, impressions and preparation of models</th>
+                  <td>1 time</td>
+                  <td>£100.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Removal of an old inlay, old crown</th>
+                  <td>1 time</td>
+                  <td>£99.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Overlay teeth whitening ( 2 arches)</th>
+                  <td>1 time</td>
+                  <td>£170.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Standard porcelain and zirconium crown on implant</th>
+                  <td>1 tooth</td>
+                  <td>£499.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Implantation of an implant (price depends on system used)</th>
+                  <td>1 tooth</td>
+                  <td>£600.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Covering the recession of the gums</th>
+                  <td>1 time</td>
+                  <td>£400.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Consultation, impressions and preparation of models</th>
+                  <td>1 time</td>
+                  <td>£35.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Removal of an old inlay, old crown</th>
+                  <td>1 time</td>
+                  <td>£99.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Overlay teeth whitening ( 2 arches)</th>
+                  <td>1 time</td>
+                  <td>£170.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Standard porcelain and zirconium crown on implant</th>
+                  <td>1 tooth</td>
+                  <td>£499.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Implantation of an implant (price depends on system used)</th>
+                  <td>1 tooth</td>
+                  <td>£600.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Covering the recession of the gums</th>
+                  <td>1 time</td>
+                  <td>£400.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Consultation, impressions and preparation of models</th>
+                  <td>1 time</td>
+                  <td>£35.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Removal of an old inlay, old crown</th>
+                  <td>1 time</td>
+                  <td>£99.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Overlay teeth whitening ( 2 arches)</th>
+                  <td>1 time</td>
+                  <td>£170.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Standard porcelain and zirconium crown on implant</th>
+                  <td>1 tooth</td>
+                  <td>£499.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Implantation of an implant (price depends on system used)</th>
+                  <td>1 tooth</td>
+                  <td>£600.00</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <!-- Contact Information -->
-        <div class="col-12 col-md-4">
-          <div class="contact-information">
-            <h5>Address</h5>
-            <p>80 Smilescape Street, Glasgow, United Kingdom</p>
-
-            <h5>Phone</h5>
-            <p>0141 549 7214</p>
-
-            <h5>Email</h5>
-            <p class="mb-0">info.smilescape@gmail.com</p>
-          </div>
-        </div>
-
-        <!-- Contact Form -->
-        <div class="col-12 col-md-8">
-          <div class="contact-form">
-            <!-- Section Heading -->
-            <div class="section-heading">
-              <h2>Get In Touch</h2>
-              <div class="line"></div>
-            </div>
-            <!-- Form -->
-            <form action="{% url 'contact' %}" method="post">
-              {% csrf_token %}
-              <div class="row">
-                <div class="col-lg-6">
-                  <input type="text" name="message-name" class="form-control mb-30" placeholder="Your Name">
-                </div>
-                <div class="col-lg-6">
-                  <input type="email" name="message-email" class="form-control mb-30" placeholder="Your Email">
-                </div>
-                <div class="col-12">
-                  <textarea name="message" class="form-control mb-30" placeholder="Your Message"></textarea>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn dento-btn">Send Message</button>
-                </div>
-              </div>
-            </form>
-
+        <div class="col-12">
+          <div class="more-btn text-center mt-50">
+            <a href="{% url 'service' %}" class="btn dento-btn">Read More <i class="fa fa-angle-double-right"></i></a>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- ***** Contact Area End ***** -->
+  <!-- ***** Pricing Table Area End ***** -->
 
   <!-- ***** Footer Area Start ***** -->  
   <footer class="footer-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/3.jpg' %});">
@@ -220,7 +290,7 @@
         <!-- Single Footer Widget -->
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="single-footer-widget">
-            <a href="./index.html" class="d-block mb-4"><img src="{% static 'website/img/core-img/logo.png' %}" alt=""></a>
+            <a href="{% url 'home' %}" class="d-block mb-4"><img src="{% static 'website/img/core-img/logo.png' %}" alt=""></a>
             <p>Smile, you're working with Smilescape!</p>
             <div class="footer-contact">
               <p><i class="icon_pin"></i> 80 Smilescape Street, Glasgow, United Kingdom</p>
@@ -251,7 +321,7 @@
         <div class="col-12 col-sm-6 col-lg">
           <div class="single-footer-widget">
             <!-- Widget Title -->
-            <h5 class="widget-title">Quick Links</h5>
+            <h5 class="widget-title">Quick Link</h5>
 
             <!-- Quick Links Nav -->
             <nav>
@@ -264,7 +334,7 @@
                 <li><a href="#">Advisors</a></li>
                 <li><a href="#">Careers</a></li>
                 <li><a href="#">Dentist</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="{% url 'service' %}">Services</a></li>
                 <li><a href="#">Legals</a></li>
               </ul>
             </nav>
@@ -288,7 +358,7 @@
 
             <!-- Social Info -->
             <div class="footer-social-info">
-              <a href="https://www.facebook.com" data-toggle="tooltip" data-placement="top" title="Facebook", target="_blank" ><i class="fa fa-facebook"></i></a>
+               <a href="https://www.facebook.com" data-toggle="tooltip" data-placement="top" title="Facebook", target="_blank" ><i class="fa fa-facebook"></i></a>
               <a href="https://www.twitter.com" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
               <a href="https://www.linkedin.com" data-toggle="tooltip" data-placement="top" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
               <a href="https://www.pinterest.com" data-toggle="tooltip" data-placement="top" title="Pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
@@ -296,7 +366,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>   
   </footer>
   <!-- ***** Footer Area End ***** -->
 
