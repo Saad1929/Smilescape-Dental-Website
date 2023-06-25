@@ -15,12 +15,11 @@ def contact(request):
 
         #If User Has Typed a message, Email With what they wrote
         try:
-           send_mail (
-              "Subject - Smilescape",
-              message,
-              message_email,
-              ["saaddjango7@gmail.com"],
-           )
+            send_mail("Contact Smilescape - New Message",
+                  message,
+                  message_email,
+                  ["saaddjango7@gmail.com"],
+                  fail_silently=False)
         except BadHeaderError:
             pass
         return render(request, 'contact.html', {'message_name' : message_name})
