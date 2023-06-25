@@ -12,10 +12,10 @@
   <!-- Title -->
   <title>Smilescape - Dental Healthcare &amp;</title>
 
-  <!-- Favicon -->
+  <!-- Favicon --> 
   <link rel="icon" href="{% static 'website/img/core-img/favicon.ico' %}">
 
-  <!-- Core Stylesheet -->
+  <!-- Core Stylesheet --> 
   <link rel="stylesheet" href="{% static 'website/css/style.css' %}">
 
 </head>
@@ -61,7 +61,7 @@
         <div class="container">
           <!-- Classy Menu -->
           <nav class="classy-navbar justify-content-between" id="dentoNav">
-
+ 
             <!-- Logo --> 
             <a class="nav-brand" href="{% url 'home' %}"><img src="{% static 'website/img/core-img/logo.png' %}" alt=""></a>
 
@@ -117,12 +117,12 @@
   </header>
   <!-- ***** Header Area End ***** -->
 
-  <!-- ***** Breadcrumb Area Start ***** -->
+  <!-- ***** Breadcrumb Area Start ***** -->  
   <div class="breadcumb-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/12.jpg' %});">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-12">
-          <h2 class="title">About Us</h2>
+          <h2 class="title">Service</h2>
         </div>
       </div>
     </div>
@@ -134,7 +134,7 @@
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="{% url 'home' %}"><i class="fa fa-home"></i> Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">About Us</li>
+              <li class="breadcrumb-item active" aria-current="page">Service</li>
             </ol>
           </nav>
         </div>
@@ -143,114 +143,88 @@
   </div>
   <!-- ***** Breadcrumb Area End ***** -->
 
-  <!-- ****** About Us Area Start ******* --> 
-  <section class="dento-about-us-area mt-70">
-    <div class="container">
-      <div class="row align-items-center">
-        <!-- About Us Thumbnail -->
-        <div class="col-12 col-md-6">
-          <div class="about-us-thumbnail mb-50">
-            <img src="{% static 'website/img/bg-img/15.jpg' %}" alt="">
-          </div>
-        </div>
-        <!-- About Content -->
-        <div class="col-12 col-md-6">
-          <div class="about-us-content mb-50">
-            <!-- Section Heading -->
-            <div class="section-heading">
-              <h2>About Us</h2>
-              <div class="line"></div>
-            </div>
-            <p>We are a modern dental practice offering comprehensive oral care, advanced treatments, and a friendly, patient-centered approach for healthy smiles! </p>
-
-
-            <!-- Single Skills Area -->
-            <div class="single-skills-area mt-30">
-              <h6>Experienced Dentists</h6>
-              <div id="bar1" class="barfiller">
-                <span class="tip"></span>
-                <span class="fill" data-percentage="80"></span>
-              </div>
-            </div>
-
-            <!-- Single Skills Area -->
-            <div class="single-skills-area mt-30">
-              <h6>Modern Equipment</h6>
-              <div id="bar2" class="barfiller">
-                <span class="tip"></span>
-                <span class="fill" data-percentage="65"></span>
-              </div>
-            </div>
-
-            <!-- Single Skills Area -->
-            <div class="single-skills-area mt-30">
-              <h6>Friendly Staff</h6>
-              <div id="bar3" class="barfiller">
-                <span class="tip"></span>
-                <span class="fill" data-percentage="85"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ****** About Us Area End ****** -->
-
-  <div class="container">
-    <div class="dento-border clearfix"></div>
-  </div>
-
-  <!-- Cool Facts Area Start -->
-  <section class="dento-cta-area">
+  <!-- ***** Services Area Start ***** -->
+  <section class="dento-services-area mt-50 mb-50">
     <div class="container">
       <div class="row">
-        <!-- Cool Facts Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-cta text-center mt-50 mb-100">
-            <i class="icon_genius"></i>
-            <h2><span class="counter">20</span></h2>
-            <h5>Years Of Experience</h5>
+
+        <!-- Single Service Area --> 
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="single-service--area text-center mb-50">
+            <div class="icon--">
+              <img src="{% static 'website/img/core-img/s6.png' %}" alt="">
+            </div>
+            <h5>Teeth Whitening</h5>
+            <p>Transform your smile with professional teeth whitening treatments that remove stains and brighten your teeth for a radiant appearance.</p>
           </div>
         </div>
 
-        <!-- Cool Facts Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-cta text-center mt-50 mb-100">
-            <i class="icon_heart_alt"></i>
-            <h2><span class="counter">120</span>+</h2>
-            <h5>Happy Patients</h5>
+        <!-- Single Service Area --> 
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="single-service--area text-center mb-50">
+            <div class="icon--">
+              <img src="{% static 'website/img/core-img/s7.png' %}" alt="">
+            </div>
+            <h5>Dental Implants</h5>
+            <p>Restore your missing teeth and regain a natural-looking smile with durable and lifelike dental implants. Enhance your oral health and confidence.</p>
           </div>
         </div>
 
-        <!-- Cool Facts Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-cta text-center mt-50 mb-100">
-            <i class="icon_book_alt"></i>
-            <h2><span class="counter">50</span></h2>
-            <h5>Certificates</h5>
+        <!-- Single Service Area --> 
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="single-service--area text-center mb-50">
+            <div class="icon--">
+              <img src="{% static 'website/img/core-img/s8.png' %}" alt="">
+            </div>
+            <h5>Missing Teeth</h5>
+            <p>Regain the functionality and aesthetics of your smile with innovative solutions for missing teeth, such as dental bridges or dentures, customized to restore your confidence and oral function.</p>
           </div>
         </div>
 
-        <!-- Cool Facts Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-cta text-center mt-50 mb-100">
-            <i class="icon_id"></i>
-            <h2><span class="counter">5</span>+</h2>
-            <h5>Dentists</h5>
+        <!-- Single Service Area --> 
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="single-service--area text-center mb-50">
+            <div class="icon--">
+              <img src="{% static 'website/img/core-img/s9.png' %}" alt="">
+            </div>
+            <h5>Cosmetic Dentistry</h5>
+            <p>Unlock your perfect smile through cosmetic dentistry procedures that enhance your teeth's appearance, including veneers, teeth whitening, and smile makeovers.</p>
           </div>
         </div>
+
+        <!-- Single Service Area --> 
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="single-service--area text-center mb-50">
+            <div class="icon--">
+              <img src="{% static 'website/img/core-img/s10.png' %}" alt="">
+            </div>
+            <h5>Examination</h5>
+            <p>Experience thorough dental examinations to ensure optimal oral health, with comprehensive assessments, X-rays, and personalized treatment plans tailored to your needs.</p>
+          </div>
+        </div>
+
+        <!-- Single Service Area --> 
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="single-service--area text-center mb-50">
+            <div class="icon--">
+              <img src="{% static 'website/img/core-img/s6.png' %}" alt="">
+            </div>
+            <h5>Teeth Pain</h5>
+            <p>Find relief from teeth pain with expert dental care, including accurate diagnosis, targeted treatments, and personalized solutions to alleviate discomfort and restore your oral health.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
-  <!-- Cool Facts Area End -->
+  <!-- ***** Services Area End ***** -->
 
-  <!-- ***** Testimonials Area Start ***** -->  
-  <section class="testimonials-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: url({% static 'website/img/bg-img/7.jpg' %});">
+  <!-- ***** Testimonials Area Start ***** --> 
+  <section class="testimonials-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: url('{% static 'website/img/bg-img/7.jpg' %}');">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <!-- Testimonials Slides -->
+          <!-- Testimonials Slides --> 
           <div class="testimonials-slides owl-carousel">
             <!-- Single Testimonials Slide -->
             <div class="single-testimonial-slide d-flex align-items-center">
@@ -260,7 +234,7 @@
               </div>
               <!-- Content -->
               <div class="testimonial-content">
-                <h5>"Exceptional care, skilled team, advanced technology, preventive focus, and patient-centered approach. A top-notch dental experience!"</h5>
+              <h5>"Exceptional care, skilled team, advanced technology, preventive focus, and patient-centered approach. A top-notch dental experience!"</h5>
                 <h6>Jacob Thompson</h6>
                 <p>Dental Patient</p>
               </div>
@@ -300,78 +274,69 @@
   </section>
   <!-- ***** Testimonials Area End ***** -->
 
-  <!-- ***** Dentist Area Start ***** -->
-  <section class="dentist-area section-padding-100-0">
+  <!-- ***** Blog Area Start ***** -->
+  <section class="dento-blog-area section-padding-100-0 clearfix">
     <div class="container">
       <div class="row">
         <!-- Section Heading -->
         <div class="col-12">
           <div class="section-heading text-center">
-            <h2>Our Dentists</h2>
+            <h2>Latest News</h2>
             <div class="line"></div>
           </div>
         </div>
       </div>
 
       <div class="row">
-        <!-- Single Dentist Area -->
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="single-dentist-area mb-100">
-            <img src="{% static 'website/img/bg-img/9.png' %}" alt="">
-            <!-- Dentist Content -->
-            <div class="dentist-content">
-              <!-- Social Info -->
-              <div class="dentist-social-info">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-              </div>
-              <!-- Dentist Info -->
-              <div class="dentist-info bg-gradient-overlay">
-                <h5>Dr. Jonathan Anderson</h5>
-                <p>Senior Dentist</p>
+        <!-- Single Blog Item --> 
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="single-blog-item mb-100">
+            <a href="./blog-details.html">
+              <img src="{% static 'website/img/bg-img/4.jpg' %}" alt="">
+            </a>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="./blog-details.html" class="post-title">Groundbreaking Study Reveals Link Between Oral Health and Heart Disease</a>
+              <p>A groundbreaking study conducted by leading researchers uncovers a strong correlation between oral health and heart disease, highlighting the importance of dental care in maintaining overall cardiovascular well-being. This finding revolutionises our understanding of oral-systemic health connections.</p>
+              <div class="post-meta">
+                <a href="#"><i class="icon_clock_alt"></i> 23 Jun 2023</a>
+                <a href="#"><i class="icon_chat_alt"></i> 3 Comments</a>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Single Dentist Area --> 
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="single-dentist-area mb-100">
-            <img src="{% static 'website/img/bg-img/10.png' %}" alt="">
-            <!-- Dentist Content -->
-            <div class="dentist-content">
-              <!-- Social Info -->
-              <div class="dentist-social-info">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-              </div>
-              <!-- Dentist Info -->
-              <div class="dentist-info bg-gradient-overlay">
-                <h5>Dr. Michael Barley</h5>
-                <p>Implant Expert</p>
+        <!-- Single Blog Item --> 
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="single-blog-item mb-100">
+            <a href="./blog-details.html">
+              <img src="{% static 'website/img/bg-img/5.jpg' %}" alt="">
+            </a>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="./blog-details.html" class="post-title">Innovative Dental Technology Revolutionises Smile Transformations</a>
+              <p>Cutting-edge dental technology advancements are reshaping smile makeovers, offering faster, more precise treatments with outstanding aesthetic results. From 3D smile simulations to digital smile design, patients now have access to transformative dental solutions like never before.</p>
+              <div class="post-meta">
+                <a href="#"><i class="icon_clock_alt"></i> 23 Jun 2023</a>
+                <a href="#"><i class="icon_chat_alt"></i> 3 Comments</a>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Single Dentist Area --> 
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="single-dentist-area mb-100">
-            <img src="{% static 'website/img/bg-img/11.png' %}" alt="">
-            <!-- Dentist Content -->
-            <div class="dentist-content">
-              <!-- Social Info -->
-              <div class="dentist-social-info">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-              </div>
-              <!-- Dentist Info -->
-              <div class="dentist-info bg-gradient-overlay">
-                <h5>Dr. Emily Roberts</h5>
-                <p>Junior Dentist</p>
+        <!-- Single Blog Item --> 
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="single-blog-item mb-100">
+            <a href="./blog-details.html">
+              <img src="{% static 'website/img/bg-img/6.jpg' %}" alt="">
+            </a>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="./blog-details.html" class="post-title">New Breakthrough in Pain-Free Dentistry: Needle-Free Anesthesia</a>
+              <p>A revolutionary needle-free anesthesia technique is set to transform the dental experience. Using innovative air-pressure technology, patients can now undergo pain-free procedures without the discomfort associated with traditional injections, making dental visits more comfortable than ever.</p>
+              <div class="post-meta">
+                <a href="#"><i class="icon_clock_alt"></i> 23 Jun 2023</a>
+                <a href="#"><i class="icon_chat_alt"></i> 3 Comments</a>
               </div>
             </div>
           </div>
@@ -379,9 +344,9 @@
       </div>
     </div>
   </section>
-  <!-- ***** Dentist Area End ***** -->
+  <!-- ***** Blog Area End ***** -->
 
-  <!-- ***** Footer Area Start ***** --> 
+  <!-- ***** Footer Area Start ***** -->  
   <footer class="footer-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/3.jpg' %});">
     <div class="container">
       <div class="row">
@@ -456,7 +421,7 @@
 
             <!-- Social Info -->
             <div class="footer-social-info">
-              <a href="https://www.facebook.com" data-toggle="tooltip" data-placement="top" title="Facebook", target="_blank" ><i class="fa fa-facebook"></i></a>
+               <a href="https://www.facebook.com" data-toggle="tooltip" data-placement="top" title="Facebook", target="_blank" ><i class="fa fa-facebook"></i></a>
               <a href="https://www.twitter.com" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
               <a href="https://www.linkedin.com" data-toggle="tooltip" data-placement="top" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
               <a href="https://www.pinterest.com" data-toggle="tooltip" data-placement="top" title="Pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
@@ -464,7 +429,7 @@
           </div>
         </div>
       </div>
-    </div>  
+    </div>
   </footer>
   <!-- ***** Footer Area End ***** -->
 
