@@ -26,3 +26,6 @@ def contact(request):
         return render(request, 'contact.html', {'message_name' : message_name})
     else:
         return render(request, 'contact.html', {})
+
+def about(request):
+    return render(request, 'about.html', {})

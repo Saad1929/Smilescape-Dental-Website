@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Smilescape - Dentist &amp; Medical HTML Template">
+  <meta name="description" content="Smilescape - Dentist &amp;">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -85,7 +85,7 @@
                   <li><a href="#">Pages</a>
                     <ul class="dropdown">
                       <li><a href="{% url 'home' %}">- Home</a></li>
-                      <li><a href="about.html">- About Us</a></li>
+                      <li><a href="{% url 'about' %}">- About Us</a></li>
                       <li><a href="service.html">- Service</a></li>
                       <li><a href="pricing.html">- Pricing</a></li>
                       <li><a href="blog.html">- Blog</a></li>
@@ -93,7 +93,7 @@
                       <li><a href="{% url 'contact' %}">- Contact</a></li>
                     </ul>
                   </li>
-                  <li><a href="about.html">About</a></li>
+                  <li><a href="{% url 'about' %}">About</a></li>
                   <li><a href="service.html">Service</a></li>
                   <li><a href="pricing.html">Pricing</a></li>
                   <li><a href="#">Blog</a>
@@ -109,7 +109,7 @@
             </div>
 
             <!-- Booking Now Button -->
-            <a href="#" class="btn dento-btn booking-btn">Booking Now</a>
+            <a href="#" class="btn dento-btn booking-btn">Book Now</a>
           </nav>
         </div>
       </div>
@@ -512,6 +512,7 @@
   <!-- Book An Oppointment Area End -->
 
     <!-- ***** Dentist Area Start ***** -->
+  {% block dentist_block %}  
   <section class="dentist-area section-padding-100-0">
     <div class="container">
       <div class="row">
@@ -590,6 +591,7 @@
       </div>
     </div>
   </section>
+  {% endblock %}
   <!-- ***** Dentist Area End ***** -->
 
    <!-- ***** Testimonials Area Start ***** -->  
@@ -762,7 +764,7 @@
             <!-- Quick Links Nav -->
             <nav>
               <ul class="quick-links">
-                <li><a href="#">About</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
                 <li><a href="#">FAQs</a></li>
                 <li><a href="{% url 'contact' %}">Contact</a></li>
                 <li><a href="#">Policy</a></li>
