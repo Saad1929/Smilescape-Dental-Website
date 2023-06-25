@@ -88,7 +88,7 @@
                       <li><a href="{% url 'about' %}">- About Us</a></li>
                       <li><a href="{% url 'service' %}">- Service</a></li>
                       <li><a href="{% url 'pricing' %}">- Pricing</a></li>
-                      <li><a href="blog.html">- Blog</a></li>
+                      <li><a href="{% url 'blog' %}">- Blog</a></li>
                       <li><a href="{% url 'contact' %}">- Contact</a></li>
                     </ul>
                   </li>
@@ -315,21 +315,15 @@
         <div class="col-12 col-sm-6 col-lg">
           <div class="single-footer-widget">
             <!-- Widget Title -->
-            <h5 class="widget-title">Quick Link</h5>
+            <h5 class="widget-title">Quick Links</h5>
 
             <!-- Quick Links Nav -->
             <nav>
               <ul class="quick-links">
                 <li><a href="{% url 'about' %}">About</a></li>
-                <li><a href="#">FAQs</a></li>
                 <li><a href="{% url 'contact' %}">Contact</a></li>
-                <li><a href="#">Policy</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Advisors</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Dentist</a></li>
+                <li><a href="{% url 'blog' %}">Blog</a></li>
                 <li><a href="{% url 'service' %}">Services</a></li>
-                <li><a href="#">Legals</a></li>
               </ul>
             </nav>
           </div>
