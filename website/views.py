@@ -14,9 +14,10 @@ def contact(request):
         message = request.POST['message'] #message is the form name
 
         #If User Has Typed a message, Email With what they wrote
+        message_to_send = "Message From: " + message_email + "\n\n" + message
         try:
             send_mail("Contact Smilescape - New Message",
-                  message,
+                  message_to_send,
                   message_email,
                   ["saaddjango7@gmail.com"],
                   fail_silently=False)
