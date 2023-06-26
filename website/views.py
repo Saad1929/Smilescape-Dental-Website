@@ -3,8 +3,16 @@ from django.core.mail import send_mail, mail_admins, BadHeaderError
 
 # Create your views here.
 
-def home(request):
+def generate_booking_message(name, phone, email, address, schedule, time):
+    message_start = "A customer wishes to make a booking, please approve or disapprove.\n"
 
+    message_details = "\nName: " + name + "\nPhone: " + phone + "\nEmail: " + email + "\nAddress: " + address + "\nSchedule: " + schedule + "\nTime: " + time
+
+    final_message = message_start + message_details
+    return final_message
+    
+
+def home(request):
     if request.method == "POST":
         name = request.POST['your-name']
         phone = request.POST['your-phone']
@@ -13,10 +21,7 @@ def home(request):
         schedule = request.POST['your-scheldule']
         time = request.POST['your-time']
 
-        message_start = "A customer wishes to make a booking, please approve or disapprove.\n"
-        message_details = "\nName: " + name + "\nPhone: " + phone + "\nEmail: " + email + "\nAddress: " + address + "\nSchedule: " + schedule + "\nTime: " + time 
-        final_message = message_start + message_details
-
+        final_message = generate_booking_message(name, phone, email, address, schedule, time)
         try:
             send_mail("Contact Smilescape - New Booking Request",
                   final_message,
