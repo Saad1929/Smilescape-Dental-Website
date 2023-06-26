@@ -4,7 +4,30 @@ from django.core.mail import send_mail, mail_admins, BadHeaderError
 # Create your views here.
 
 def home(request):
-    return render(request, 'home.html', {})
+
+    if request.method == "POST":
+        name = request.POST['your-name']
+        phone = request.POST['your-phone']
+        email = request.POST['your-email']
+        address = request.POST['your-address']
+        schedule = request.POST['your-scheldule']
+        time = request.POST['your-time']
+
+        message_start = "A customer wishes to make a booking, please approve or disapprove.\n"
+        message_details = "\nName: " + name + "\nPhone: " + phone + "\nEmail: " + email + "\nAddress: " + address + "\nSchedule: " + schedule + "\nTime: " + time 
+        final_message = message_start + message_details
+
+        try:
+            send_mail("Contact Smilescape - New Booking Request",
+                  final_message,
+                  email,
+                  ["saaddjango7@gmail.com"],
+                  fail_silently=False)
+        except BadHeaderError:
+            pass
+        return render(request, 'home.html', {'name' : name})
+    else:
+        return render(request, 'home.html', {})
 
 def contact(request):
 

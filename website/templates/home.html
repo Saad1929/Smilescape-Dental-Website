@@ -444,7 +444,8 @@
         <div class="col-12">
           <!-- Appointment Form -->
           <div class="appointment-form">
-            <form action="#" method="post">
+            <form action="{% url 'home' %}" method="post">
+              {% csrf_token %}
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group mb-30">
