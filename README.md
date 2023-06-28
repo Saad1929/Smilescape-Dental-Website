@@ -26,3 +26,5 @@
 - setuptools==68.0.0 ; python_version >= '3.7'
 - sqlparse==0.4.4 ; python_version >= '3.5'
 - whitenoise==5.0.1
+## Other Software Tools
+- **Git** was used as a **Version Control System (VCS)** to **maintain a history of the software project**.
