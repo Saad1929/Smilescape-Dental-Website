@@ -32,3 +32,6 @@
 - **Git** was used as a **Version Control System (VCS)** to **maintain a history of the software project**.
 - **GitHub** was used to **host and maintain history of the project**.
 ## ✏️Design
+### Web Application Wireframe
+- **Wireframes** were **created to depict how the individual web pages would look from an architectural	perspective**.
+- **Wireframes** were used as an **interestion** to the web applications **Information Architecture** and the **visual and infomration design**.
