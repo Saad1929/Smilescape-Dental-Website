@@ -1,4 +1,4 @@
 # Smilescape Dental Web Application - Python & Django
 ## Brief Summary
 - Personal Django Project to create a **Full Stack Web Application**.
-- Project has attracted interest from local dentists, who are **interested in myself creating a web application for them**
+- This project has **garnered significant attention from esteemed local dentists**, who have **expressed a keen interest** in **commissioning my expertise to develop a cutting-edge web application tailored to their specific needs**.
