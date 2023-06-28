@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 django = "==3.0.2"
+gunicorn = "*"
+python-decouple = "*"
+dj-database-url = "*"
+whitenoise = "==5.0.1"
+django-on-heroku = "*"
 
 [dev-packages]
 
