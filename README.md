@@ -1,5 +1,5 @@
 # Smilescape Dental Web Application - Python & Django
-**Deployed Application:** https://smilescape-ff81c76613c8.herokuapp.com/
+**Heroku Deployed Application:** https://smilescape-ff81c76613c8.herokuapp.com/
 ## Brief Summary
 - Personal Django Project to create a **Full Stack Web Application**.
 - This project has **garnered significant attention from esteemed local dentists**, who have **expressed a keen interest in commissioning my skills to develop a web application tailored to their specific needs**.
