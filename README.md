@@ -13,4 +13,16 @@
 - CSS3
 - SCSS
 - JavaScript
-  
+### Pip Requirements
+- Heroku (Deployment)
+- asgiref==3.7.2 ; python_version >= '3.7'
+- dj-database-url==0.5.0
+- django==3.0.2
+- django-on-heroku==1.1.2
+- gunicorn==20.1.0
+- psycopg2-binary==2.9.6 ; python_version >= '3.6'
+- python-decouple==3.8
+- pytz==2023.3
+- setuptools==68.0.0 ; python_version >= '3.7'
+- sqlparse==0.4.4 ; python_version >= '3.5'
+- whitenoise==5.0.1
