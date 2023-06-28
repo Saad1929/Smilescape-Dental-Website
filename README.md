@@ -29,3 +29,5 @@
 - whitenoise==5.0.1
 ### Other Software Tools
 - **Git** was used as a **Version Control System (VCS)** to **maintain a history of the software project**.
+- Deployed Application![image](https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/66f5b540-5b40-40f9-9aac-2fd104ac9eb9)
+
