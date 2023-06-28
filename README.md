@@ -1,2 +1,2 @@
-# Smilescape Dental Website - Python & Django
+# Smilescape Dental Web Application - Python & Django
 ## Brief Summary
