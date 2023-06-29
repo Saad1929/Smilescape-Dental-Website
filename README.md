@@ -68,3 +68,4 @@ Authenticated  Gmail account credentials (username and application password)
 ## 🚀Heroku Deployment
 - Upon completion of the web application, **Heroku** was utilised to **deploy** it to the internet. This allowed the **application to be accessible and functional online**.
 - A **Procfile** was created which **specifies the commands** that are **executed by Heroku when deploying the website**.
+- **Settings.py** was tweaked to **enable Heroku usage**. These changes can be found in **commit 9991a5f, labelled "Heroku Settings"**.
