@@ -71,3 +71,7 @@ Authenticated  Gmail account credentials (username and application password)
 - **Settings.py** was tweaked to **enable Heroku usage**. These changes can be found in **commit 9991a5f, labelled "Heroku Settings"**.
 - A **requirements.txt** file was created and the code was **pushed up to Heroku** which **deployed the web application**.
 - **Heroku Deployed Application:** https://smilescape-ff81c76613c8.herokuapp.com/
+### Heroku Deployment Summarisation Diagram
+<img width="916" alt="Screenshot 2023-06-30 at 12 00 39 am" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/511d5d05-0cf0-4c7d-a27b-70c9cb5c1150">
+
+**Heroku Deployed Application:** https://smilescape-ff81c76613c8.herokuapp.com/
