@@ -39,3 +39,5 @@
 - **HTML** was utilised for **constructing templates and laying the foundation of the web application**, as well as **generating Django Templates** for each web page. **Django Template Tags** were used to **display information configured from the backend**.
 - **CSS and SCSS** were employed to **enhance the website's visual appeal**, giving it a **polished and modern appearance** that is both **attractive and professional**.
 - **JavaScript and jQuery** were **closely integrated** to **elevate** the frontend of this web application, **incorporating modern animations** such as **smooth transitions** and **interactive mouse events**. This was done to **enhance the user experience** and create a more **engaging, modern and dynamic web application**.
+#### Frontend Technology Stack Summarisation Diagram:
+<img width="714" alt="Screenshot 2023-06-29 at 10 38 33 pm" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/392fd76a-4472-4cfa-9668-8b61acd86f21">
