@@ -13,7 +13,7 @@
 - HTML5
 - CSS3
 - SCSS
-- JavaScript
+- JavaScript & jQuery
 ### Pip Requirements
 - Heroku (Deployment)
 - asgiref==3.7.2 ; python_version >= '3.7'
