@@ -50,8 +50,6 @@
 - **SMTP4Dev** was utilised to **test the backend configuration of the contact and booking forms**. By using **SMTP4Dev**, **comprehensive testing was conducted** to ensure that the forms and backend data extraction were **fully functional** before **testing with different email providers**.
 - To use SMTP4Dev, **Docker** was utilised with the following command: **`docker run --rm -it -p 3000:80 -p 2525:25 rnwood/smtp4dev`**. This command enabled the **containerisation of SMTP4Dev**, allowing it to **run and be accessed through specified ports for testing purposes**.
 - SMTP4Dev Github: https://github.com/rnwood/smtp4dev
-#### Backend Technology Stack SMTP4Dev Summarisation Diagram:
-<img width="520" alt="Screenshot 2023-06-25 at 6 41 04 pm" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/b2542172-8f4d-484a-9562-9ac2d4ed030e">
 
 #### Using SMPT4 with Gmail
 The following steps were used to connect SMTP4 with Gmail for this web application:
@@ -63,3 +61,6 @@ Port: 587
 TLS encryption
 Authenticated  Gmail account credentials (username and application password)
 3. Views.py was edited to connect to the send_mail function.
+
+#### Backend Technology Stack SMTP4Dev Summarisation Diagram:
+<img width="520" alt="Screenshot 2023-06-25 at 6 41 04 pm" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/b2542172-8f4d-484a-9562-9ac2d4ed030e">
