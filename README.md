@@ -67,3 +67,4 @@ Authenticated  Gmail account credentials (username and application password)
 
 ## 🚀Heroku Deployment
 - Upon completion of the web application, **Heroku** was utilised to **deploy** it to the internet. This allowed the **application to be accessible and functional online**.
+- 
