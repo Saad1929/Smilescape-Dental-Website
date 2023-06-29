@@ -69,3 +69,5 @@ Authenticated  Gmail account credentials (username and application password)
 - Upon completion of the web application, **Heroku** was utilised to **deploy** it to the internet. This allowed the **application to be accessible and functional online**.
 - A **Procfile** was created which **specifies the commands** that are **executed by Heroku when deploying the website**.
 - **Settings.py** was tweaked to **enable Heroku usage**. These changes can be found in **commit 9991a5f, labelled "Heroku Settings"**.
+- A **requirements.txt** file was created and the code was **pushed up to Heroku** which **deployed the web application**.
+**Heroku Deployed Application:** https://smilescape-ff81c76613c8.herokuapp.com/
