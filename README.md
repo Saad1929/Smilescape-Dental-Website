@@ -41,3 +41,6 @@
 - **JavaScript and jQuery** were **closely integrated** to **elevate** the frontend of this web application, **incorporating modern animations** such as **smooth transitions** and **interactive mouse events**. This was done to **enhance the user experience** and create a more **engaging, modern and dynamic web application**.
 #### Frontend Technology Stack Summarisation Diagram:
 <img width="714" alt="Screenshot 2023-06-29 at 10 38 33 pm" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/392fd76a-4472-4cfa-9668-8b61acd86f21">
+
+### Backend Technology Stack
+- **Python** was employed as the **backend programming language** for this web application, and the **Django Web Application framework** was utilised to develop the application. This combination allowed for **efficient server-side processing, seamless data management, and streamlined communication** between the **frontend and the backend components of the web application**.
