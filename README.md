@@ -53,5 +53,13 @@
 #### Backend Technology Stack SMTP4Dev Summarisation Diagram:
 <img width="520" alt="Screenshot 2023-06-25 at 6 41 04 pm" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/b2542172-8f4d-484a-9562-9ac2d4ed030e">
 
-
-
+#### Using SMPT4 with Gmail
+The following steps were used to connect SMTP4 with Gmail for this web application:
+1. To work with SMTP4 with Gmail Email Provider, SMTP4 was downloaded using Docker and configured.
+2. Settings.py was edited to allow the web application to recognsie and work with SMTP4.
+Settings for Settings.py: 
+SMTP server: smtp.gmail.com
+Port: 587
+TLS encryption
+Authenticated  Gmail account credentials (username and application password)
+3. Views.py was edited to connect to the send_mail function.
