@@ -65,4 +65,4 @@ Authenticated  Gmail account credentials (username and application password)
 #### Backend Technology Stack SMTP4Dev Summarisation Diagram:
 <img width="520" alt="Screenshot 2023-06-25 at 6 41 04 pm" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/b2542172-8f4d-484a-9562-9ac2d4ed030e">
 
-## Heroku Deployment
+## 📌Heroku Deployment
