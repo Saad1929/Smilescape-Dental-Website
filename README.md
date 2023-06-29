@@ -46,5 +46,5 @@
 - **Python** was employed as the **backend programming language** for this web application, and the **Django Web Application framework** was utilised to develop the application. This combination allowed for **efficient server-side processing, seamless data management, and streamlined communication** between the **frontend and the backend components of the web application**.
 #### Configuring Django Emails 
 - **Django's Email capabilities** were utilised to **enable users to contact the dental practice for any sort of query as well as allowing patients to book appointments**. The **backend utilised specific Django Python functions** to **extract details from the contact and booking forms submitted through the frontend**.
-##### Using SMTP4Dev (Testing)
+#### Using SMTP4Dev (Testing)
 - 
