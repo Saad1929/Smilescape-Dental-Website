@@ -38,3 +38,4 @@
 ### Frontend Technology Stack
 - **HTML** was utilised for **constructing templates and laying the foundation of the web application**, as well as **generating Django Templates** for each web page. **Django Template Tags** were used to **display information configured from the backend**.
 - **CSS and SCSS** were employed to **enhance the website's visual appeal**, giving it a **polished and modern appearance** that is both **attractive and professional**.
+- **JavaScript and jQuery** were **closely integrated** to **elevate** the frontend of this web application, **incorporating modern animations** such as **smooth transitions** and **interactive mouse events**. This was done to **enhance the user experience** and create a more **engaging, modern and dynamic web application**.
