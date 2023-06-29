@@ -35,3 +35,5 @@
 ### Web Application Wireframes
 - **Wireframes** were **created to depict how the individual web pages would look from an architectural	perspective**.
 - **Wireframes** were used as an **interestion** to the web applications **Information Architecture** and the **visual and infomration design**.
+### Frontend Technology Stack
+- **HTML** was utilised for **constructing templates and laying the foundation of the web application**, as well as **generating Django Templates** for each web page. **Django Template Tags** were used to **display information configured from the backend**.
