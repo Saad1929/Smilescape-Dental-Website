@@ -47,4 +47,4 @@
 #### Configuring Django Emails 
 - **Django's Email capabilities** were utilised to **enable users to contact the dental practice for any sort of query as well as allowing patients to book appointments**. The **backend utilised specific Django Python functions** to **extract details from the contact and booking forms submitted through the frontend**.
 #### Using SMTP4Dev (Testing)
-- 
+- **SMTP4Dev** was utilised to **test the backend configuration of the contact and booking forms**. By using **SMTP4Dev**, **comprehensive testing was conducted** to ensure that the forms and backend data extraction were **fully functional** before **testing with different email providers**.
