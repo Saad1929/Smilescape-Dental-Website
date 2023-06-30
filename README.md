@@ -45,6 +45,8 @@
 #### Service Page Wireframe
 <img width="600" alt="Service Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/2f896199-0bf6-4b45-b4da-0f723d839915">
 
+#### Pricing Page Wireframe
+
 ### Frontend Technology Stack
 - **HTML** was utilised for **constructing templates and laying the foundation of the web application**, as well as **generating Django Templates** for each web page. **Django Template Tags** were used to **display information configured from the backend**.
 - **CSS and SCSS** were employed to **enhance the website's visual appeal**, giving it a **polished and modern appearance** that is both **attractive and professional**.
