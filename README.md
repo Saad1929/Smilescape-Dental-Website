@@ -2,13 +2,14 @@
 **Heroku Deployed Application:** https://smilescape-ff81c76613c8.herokuapp.com/
 ## Contents
 1. [ Brief Summary ](#summary)
-2. [ Usage tips. ](#usage)
+2. [ Aims and Motivation ](#aims)
 
 <a name="summary"></a>
 ## Brief Summary
 - Personal Django Project to create a **Full Stack Web Application**.
 - This project has **garnered significant attention from esteemed local dentists**, who have **expressed a keen interest in commissioning my skills to develop a web application tailored to their specific needs**.
 - **Heroku Deployed Application:** https://smilescape-ff81c76613c8.herokuapp.com/
+<a name="aims"></a>
 ## 🎯Aims and Motivation
 - The **primary goal** of this project entailed the development of a comprehensive **Full Stack Web Application**, meticulously crafted during my **own personal time**, and **subsequently deployed** to **amplify my prowess** in both **Frontend and Backend technologies**.
 - **Motivated** by an **unrelenting passion for knowledge and personal growth**, I undertook the creation of a **sophisticated Full Stack Web Application in order to expand my expertise in Frontend and Backend technologies**. The project has **garnered attention from local dentists**, who have **expressed a keen interest in my work**.
