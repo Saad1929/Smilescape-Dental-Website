@@ -43,7 +43,7 @@
 <img width="600" alt="About Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/09eecf61-198b-4841-8af6-3535864810e6">
 
 #### Service Page Wireframe
-<img width="929" alt="Service Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/2f896199-0bf6-4b45-b4da-0f723d839915">
+<img width="600" alt="Service Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/2f896199-0bf6-4b45-b4da-0f723d839915">
 
 ### Frontend Technology Stack
 - **HTML** was utilised for **constructing templates and laying the foundation of the web application**, as well as **generating Django Templates** for each web page. **Django Template Tags** were used to **display information configured from the backend**.
