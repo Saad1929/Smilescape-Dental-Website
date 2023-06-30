@@ -42,7 +42,7 @@
 - **Heroku** was used to **deploy the web application**.
 - **Git** was used as a **Version Control System (VCS)** to **maintain a history of the software project**.
 - **GitHub** was used to **host and maintain history of the project**.
-- **Docker** was used for **backend testing** purposes, **further explained below**.
+- **Docker** was used for **backend testing** purposes, **further explained [ below ](#design)**. 
 <a name="design"></a>
 ## ✏️Design
 ### Web Application Wireframes
