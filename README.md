@@ -4,7 +4,7 @@
 1. [ Brief Summary ](#summary)
 2. [ 🎯Aims and Motivation ](#aims)
 3. [ ⚙️Technologies, Requirements and Software Tools ](#tech)
-4. 
+4. [ ✏️Design ](#design)
 
 <a name="summary"></a>
 ## Brief Summary
@@ -41,6 +41,7 @@
 - **Heroku** was used to **deploy the web application**.
 - **Git** was used as a **Version Control System (VCS)** to **maintain a history of the software project**.
 - **GitHub** was used to **host and maintain history of the project**.
+<a name="design"></a>
 ## ✏️Design
 ### Web Application Wireframes
 - **Wireframes** were **created to depict how the individual web pages would look from an architectural	perspective**.
