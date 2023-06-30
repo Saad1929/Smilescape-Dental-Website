@@ -2,7 +2,7 @@
 **Heroku Deployed Application:** https://smilescape-ff81c76613c8.herokuapp.com/
 ## Contents
 1. [ Brief Summary ](#summary)
-2. [ Aims and Motivation ](#aims)
+2. [ 🎯Aims and Motivation ](#aims)
 3. [ Technologies, Requirements and Software Tools ](#tech)
 4. 
 
