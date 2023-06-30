@@ -37,6 +37,8 @@
 - **Wireframes** were **created to depict how the individual web pages would look from an architectural	perspective**.
 - **Wireframes** were used as an **interestion** to the web applications **Information Architecture** and the **visual and infomration design**.
 #### Home Page Wireframe
+<img width="925" alt="Home Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/ce170ee5-d87e-4f21-a33c-e154656cadb9">
+
 ### Frontend Technology Stack
 - **HTML** was utilised for **constructing templates and laying the foundation of the web application**, as well as **generating Django Templates** for each web page. **Django Template Tags** were used to **display information configured from the backend**.
 - **CSS and SCSS** were employed to **enhance the website's visual appeal**, giving it a **polished and modern appearance** that is both **attractive and professional**.
