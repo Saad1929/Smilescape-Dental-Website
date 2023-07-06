@@ -1,4 +1,4 @@
-# Smilescape Dental Web Application - Python & Django
+# Full Stack Smilescape Dental Web Application - Python, Django & MySQL
 **Heroku Deployed Application:** https://smilescape-ff81c76613c8.herokuapp.com/
 ## Contents
 1. [ Brief Summary ](#summary)
