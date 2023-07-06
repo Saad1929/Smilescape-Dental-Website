@@ -14,8 +14,8 @@
 - **Heroku Deployed Application:** https://smilescape-ff81c76613c8.herokuapp.com/
 <a name="aims"></a>
 ## 🎯Aims and Motivation
-- The **primary goal** of this project entailed the development of a comprehensive **Full Stack Web Application**, meticulously crafted during my **own personal time**, and **subsequently deployed** to **amplify my prowess** in both **Front-end and Backend technologies**.
-- **Motivated** by an **unrelenting passion for knowledge and personal growth**, I undertook the creation of a **sophisticated Full Stack Web Application in order to expand my expertise in Front-end and Backend technologies**. The project has **garnered attention from local dentists**, who have **expressed a keen interest in my work**.
+- The **primary goal** of this project entailed the development of a comprehensive **Full Stack Web Application**, meticulously crafted during my **own personal time**, and **subsequently deployed** to **amplify my prowess** in both **Front-end and Back-end technologies**.
+- **Motivated** by an **unrelenting passion for knowledge and personal growth**, I undertook the creation of a **sophisticated Full Stack Web Application in order to expand my expertise in Front-end and Back-end technologies**. The project has **garnered attention from local dentists**, who have **expressed a keen interest in my work**.
 <a name="tech"></a>
 ## ⚙️Technologies, Requirements and Software Tools
 ### Programming and Scripting Languages
@@ -42,7 +42,7 @@
 - **Heroku** was used to **deploy the web application**.
 - **Git** was used as a **Version Control System (VCS)** to **maintain a history of the software project**.
 - **GitHub** was used to **host and maintain history of the project**.
-- **Docker** was used for **backend testing** purposes, **further explained in the [ design section ](#design)**.
+- **Docker** was used for **back-end testing** purposes, **further explained in the [ design section ](#design)**.
 <a name="design"></a>
 ## ✏️Design
 ### Web Application Wireframes
@@ -67,18 +67,18 @@
 <img width="600" alt="Contact Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/0a599ea7-96ca-46f1-a649-c9d175c4068f">
 
 ### Front-end Technology Stack
-- **HTML** was utilised for **constructing templates and laying the foundation of the web application**, as well as **generating Django Templates** for each web page. **Django Template Tags** were used to **display information configured from the backend**.
+- **HTML** was utilised for **constructing templates and laying the foundation of the web application**, as well as **generating Django Templates** for each web page. **Django Template Tags** were used to **display information configured from the back-end**.
 - **CSS and SCSS** were employed to **enhance the website's visual appeal**, giving it a **polished and modern appearance** that is both **attractive and professional**.
-- **JavaScript and jQuery** were **closely integrated** to **elevate** the frontend of this web application, **incorporating modern animations** such as **smooth transitions** and **interactive mouse events**. This was done to **enhance the user experience** and create a more **engaging, modern and dynamic web application**.
+- **JavaScript and jQuery** were **closely integrated** to **elevate** the front-end of this web application, **incorporating modern animations** such as **smooth transitions** and **interactive mouse events**. This was done to **enhance the user experience** and create a more **engaging, modern and dynamic web application**.
 #### Front-end Technology Stack Summarisation Diagram:
 <img width="714" alt="Screenshot 2023-06-29 at 10 38 33 pm" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/392fd76a-4472-4cfa-9668-8b61acd86f21">
 
-### Backend Technology Stack
-- **Python** was employed as the **backend programming language** for this web application, and the **Django Web Application framework** was utilised to develop the application. This combination allowed for **efficient server-side processing, seamless data management, and streamlined communication** between the **frontend and the backend components of the web application**.
+### Back-end Technology Stack
+- **Python** was employed as the **back-end programming language** for this web application, and the **Django Web Application framework** was utilised to develop the application. This combination allowed for **efficient server-side processing, seamless data management, and streamlined communication** between the **front-end and the back-end components of the web application**.
 #### Configuring Django Emails 
-- **Django's Email capabilities** were utilised to **enable users to contact the dental practice for any sort of query as well as allowing patients to book appointments**. The **backend utilised specific Django Python functions** to **extract details from the contact and booking forms submitted through the frontend**.
+- **Django's Email capabilities** were utilised to **enable users to contact the dental practice for any sort of query as well as allowing patients to book appointments**. The **back-end utilised specific Django Python functions** to **extract details from the contact and booking forms submitted through the front-end**.
 #### Using SMTP4Dev (Testing)
-- **SMTP4Dev** was utilised to **test the backend configuration of the contact and booking forms**. By using **SMTP4Dev**, **comprehensive testing was conducted** to ensure that the forms and backend data extraction were **fully functional** before **testing with different email providers**.
+- **SMTP4Dev** was utilised to **test the back-end configuration of the contact and booking forms**. By using **SMTP4Dev**, **comprehensive testing was conducted** to ensure that the forms and back-end data extraction were **fully functional** before **testing with different email providers**.
 - To use SMTP4Dev, **Docker** was utilised with the following command: **`docker run --rm -it -p 3000:80 -p 2525:25 rnwood/smtp4dev`**. This command enabled the **containerisation of SMTP4Dev**, allowing it to **run and be accessed through specified ports for testing purposes**.
 - SMTP4Dev Github: https://github.com/rnwood/smtp4dev
 
@@ -93,7 +93,7 @@ TLS encryption
 Authenticated  Gmail account credentials (username and application password)
 3. Views.py was edited to connect to the send_mail function.
 
-#### Backend Technology Stack SMTP4Dev Summarisation Diagram:
+#### Back-end Technology Stack SMTP4Dev Summarisation Diagram:
 <img width="520" alt="Screenshot 2023-06-25 at 6 41 04 pm" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/b2542172-8f4d-484a-9562-9ac2d4ed030e">
 
 <a name="heroku"></a>
