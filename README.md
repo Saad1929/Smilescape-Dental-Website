@@ -14,8 +14,8 @@
 - **Heroku Deployed Application:** https://smilescape-ff81c76613c8.herokuapp.com/
 <a name="aims"></a>
 ## 🎯Aims and Motivation
-- The **primary goal** of this project entailed the development of a comprehensive **Full Stack Web Application**, meticulously crafted during my **own personal time**, and **subsequently deployed** to **amplify my prowess** in both **Frontend and Backend technologies**.
-- **Motivated** by an **unrelenting passion for knowledge and personal growth**, I undertook the creation of a **sophisticated Full Stack Web Application in order to expand my expertise in Frontend and Backend technologies**. The project has **garnered attention from local dentists**, who have **expressed a keen interest in my work**.
+- The **primary goal** of this project entailed the development of a comprehensive **Full Stack Web Application**, meticulously crafted during my **own personal time**, and **subsequently deployed** to **amplify my prowess** in both **Front-end and Backend technologies**.
+- **Motivated** by an **unrelenting passion for knowledge and personal growth**, I undertook the creation of a **sophisticated Full Stack Web Application in order to expand my expertise in Front-end and Backend technologies**. The project has **garnered attention from local dentists**, who have **expressed a keen interest in my work**.
 <a name="tech"></a>
 ## ⚙️Technologies, Requirements and Software Tools
 ### Programming and Scripting Languages
@@ -66,11 +66,11 @@
 #### Contact Page Wireframe
 <img width="600" alt="Contact Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/0a599ea7-96ca-46f1-a649-c9d175c4068f">
 
-### Frontend Technology Stack
+### Front-end Technology Stack
 - **HTML** was utilised for **constructing templates and laying the foundation of the web application**, as well as **generating Django Templates** for each web page. **Django Template Tags** were used to **display information configured from the backend**.
 - **CSS and SCSS** were employed to **enhance the website's visual appeal**, giving it a **polished and modern appearance** that is both **attractive and professional**.
 - **JavaScript and jQuery** were **closely integrated** to **elevate** the frontend of this web application, **incorporating modern animations** such as **smooth transitions** and **interactive mouse events**. This was done to **enhance the user experience** and create a more **engaging, modern and dynamic web application**.
-#### Frontend Technology Stack Summarisation Diagram:
+#### Front-end Technology Stack Summarisation Diagram:
 <img width="714" alt="Screenshot 2023-06-29 at 10 38 33 pm" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/392fd76a-4472-4cfa-9668-8b61acd86f21">
 
 ### Backend Technology Stack
