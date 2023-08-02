@@ -49,22 +49,27 @@
 - **Wireframes** were **created to depict how the individual web pages would look from an architectural	perspective**.
 - **Wireframes** were used as an **interestion** to the web applications **Information Architecture** and the **visual and infomration design**.
 #### Home Page Wireframe
-<img width="600" alt="Home Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/ce170ee5-d87e-4f21-a33c-e154656cadb9">
+<img width="925" alt="Home Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/91499c1b-0795-452d-bfa6-74484003c13d">
+
 
 #### About Page Wireframe
-<img width="600" alt="About Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/09eecf61-198b-4841-8af6-3535864810e6">
+<img width="922" alt="About Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/aee4a203-7741-4f7d-ba26-ae8effbcf170">
+
 
 #### Service Page Wireframe
-<img width="600" alt="Service Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/2f896199-0bf6-4b45-b4da-0f723d839915">
+<img width="929" alt="Service Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/a07ef864-c9ae-4188-9f47-519642d646ca">
+
 
 #### Pricing Page Wireframe
-<img width="600" alt="Pricing Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/97908717-f8f9-46d2-8e24-3e6e936dc10b">
+<img width="924" alt="Pricing Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/7569f4f1-fc94-497a-8a8c-c8d173b0b2f4">
+
 
 #### Blog Page Wireframe
-<img width="600" alt="Blog Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/f49bf620-e8b0-4c52-8b59-68e886d495ff">
+<img width="923" alt="Blog Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/b8bd062b-0c03-4db6-98aa-4a73dcdf3b4f">
+
 
 #### Contact Page Wireframe
-<img width="600" alt="Contact Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/0a599ea7-96ca-46f1-a649-c9d175c4068f">
+<img width="923" alt="Contact Page Wireframe" src="https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/c92bc85d-3904-4879-8189-77932e34d26e">
 
 ### Front-end Technology Stack
 - **HTML** was utilised for **constructing templates and laying the foundation of the web application**, as well as **generating Django Templates** for each web page. **Django Template Tags** were used to **display information configured from the back-end**.
