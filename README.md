@@ -100,8 +100,8 @@ Authenticated  Gmail account credentials (username and application password)
 3. Views.py was edited to connect to the send_mail function.
 
 #### Back-end Technology Stack SMTP4Dev Summarisation Diagram:
-<img width="200" alt="Home Page Wireframe" src="![heroku diagram](https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/2171d6de-b397-4ed4-a3a8-a50f493130a6)
-">
+![smtp4 diagram](https://github.com/Saad1929/Smilescape-Dental-Website/assets/108022733/17150748-7e94-480a-99a3-7c0065de0d44)
+
 
 <a name="heroku"></a>
 ## 🚀Heroku Deployment
